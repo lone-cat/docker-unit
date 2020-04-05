@@ -1,4 +1,0 @@
-# Keep package clean:
-/.gitattributes     export-ignore
-/.gitignore         export-ignore
-/docker-compose.yaml export-ignore
