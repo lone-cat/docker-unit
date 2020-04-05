@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "127.0.0.1:80:80"
+    depends_on:
+      - php
+
+  php:
+    build: ./php
+    volumes:
+      - ./:/app
