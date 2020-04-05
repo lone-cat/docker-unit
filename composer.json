@@ -1,0 +1,12 @@
+{
+  "name": "lonecat/docker-unit",
+  "description": "My docker containers prepared for testing",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alex Melentev",
+      "email": "alex@melentev.net"
+    }
+  ]
+}
