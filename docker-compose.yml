@@ -30,5 +30,4 @@ services:
       - "127.0.0.1:3306:3306"
     volumes:
       - ./mysql/data:/var/lib/mysql
-      - ./mysql/dumps:/dumps
       - ./mysql/initdumps:/docker-entrypoint-initdb.d
